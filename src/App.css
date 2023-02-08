@@ -1,0 +1,144 @@
+body {
+  background-color: #084951b6;
+  height: 100%;
+}
+
+.residentList {
+  display: grid;
+  gap: 20px;
+  grid-auto-rows: auto;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.residentCard {
+  background-color: #084851;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.residentCard_status {
+  position: absolute;
+  top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding:  0 10px;
+  background-color: #084851;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.residentCard_status-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.Alive {
+  background-color: greenyellow;
+}
+
+.Dead {
+  background-color: red;
+}
+
+.unknown {
+  background-color: rgb(104, 104, 104);
+}
+
+.residentCard_status_name {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.residentCard_info {
+  padding: 20px;
+}
+
+.residentCard_name {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.residentCard_line {
+  position: relative;
+  width: 200%;
+  left: -40px;
+}
+
+.residentCard_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.residentCard_item span {
+  color: rgb(168, 168, 168);
+  font-weight: bold;
+  display: block;
+}
+
+.Header_img {
+  position: center;
+  width: 85%;
+  height: 400px;
+  margin: 2%;
+}
+
+.Buscador {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Buscador input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.Boton {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(177, 230, 210);
+  cursor: pointer;
+}
+
+.bton {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(177, 230, 210);
+  cursor: pointer;
+}
+
+.Informaciondelplaneta {
+  position: flex;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding:  0 10px;
+  background-color: #084851;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.App { 
+  padding: 0.5em 1em;
+  color: #ffffff;
+  border: none;
+  background: rgb(59, 61, 214);
+  cursor: pointer;
+}
